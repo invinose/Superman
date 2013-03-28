@@ -1,0 +1,180 @@
+body
+{
+	font-size: 75%;
+	font-family: Verdana, Tahoma, Arial, "Helvetica Neue" , Helvetica, Sans-Serif;
+	color: #232323;
+	background-color: #fff;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset
+{
+	border: 1px solid #ddd;
+	padding: 0 1.4em 1.4em 1.4em;
+	margin: 0 0 1.5em 0;
+}
+
+legend
+{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+textarea
+{
+	min-height: 75px;
+}
+
+.editor-label
+{
+	margin: 1em 0 0 0;
+}
+
+.editor-field
+{
+	margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+	color: #ff0000;
+}
+
+.field-validation-valid
+{
+	display: none;
+}
+
+.input-validation-error
+{
+	border: 1px solid #ff0000;
+	background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.validation-summary-valid
+{
+	display: none;
+}
+
+.noselect
+{
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+#main
+{
+	padding-top:20px;
+	padding-left: 300px;
+	margin-bottom:0;
+	background-color: #fff;
+	padding-bottom:0;
+}
+
+#listpanel
+{
+	border-left: 2px solid #CCC;
+	padding-left: 2em;
+	padding-top:0;
+	padding-bottom:0;
+	text-align:left;
+	min-height:500px;
+}
+
+#folderList
+{
+	float: left; 
+	background: none; 
+	border:0; 
+	padding-left:10px; 
+	padding-top: 20px; 
+	width:280px; 
+}
+
+#folderList img
+{
+	vertical-align:middle;
+	height:16px;
+	width:16px;
+}
+
+#filelist
+{
+	padding-right:20px;
+}
+
+#titlebar
+{
+	border:none;
+	font-size:1.2em;
+}
+
+#titlebar .t-header
+{
+	border:none;
+}
+
+#titlebar .t-content
+{
+	color: #333;
+	height:40px;
+	width:100%;
+	/*background: #a6d9f4 url('vista/sprite.png') repeat-x 0 -368px;*/
+	/*background:#f1f5fb;*/
+	background:#e3eefb;
+	border:none;
+}
+
+#searchbox
+{
+    float:right;
+    right: 0;
+	padding-top: 10px;
+	position:absolute;
+	width:320px;
+}
+
+
+#searchbox input
+{
+	color: #3b3b3b;
+	font: 1em Arial, sans-serif;
+	padding-top:0;
+	right: 10px;
+	height:14px; 
+	width:300px; 
+	z-index:100;
+}
+
+
+#searchbox label
+{
+	text-align:left;
+	padding-left:2px;
+	padding-top: 2px;
+	position: absolute;
+	font-style: italic;
+	/*color: #d5dbc3;*/
+	z-index:1000;
+	color: Gray;
+	cursor: text;
+}
+
+#searchbox img
+{
+	right:20px;
+	padding-top: 2px;
+	position: absolute;
+}
